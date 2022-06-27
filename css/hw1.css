@@ -1,0 +1,125 @@
+body {
+    margin: 20px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(0, 51, 102);
+    background-image: url(../images/flywheel.jpg);
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+nav a {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+    white-space: nowrap;
+    width: 120px;
+    margin: 30px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #fff;
+}
+
+.left {
+    float: left;
+    /* align-items: center; */
+    width: 24%;
+    height: 100Vh;
+    background-color: rgb(224, 235, 235);
+}
+
+.right {
+    float: right;
+    width: 74%;
+    height: 100vh;
+    padding-left: 2%;
+    background-color: #fff;
+}
+
+img {
+    display: block;
+    width: 45%;
+    border: solid 2px rgb(0, 0, 0);
+    clear: both;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h2 {
+    color: rgb(0, 51, 102);
+    text-transform: uppercase;
+}
+
+section {
+    background-color: rgb(159, 159, 223);
+}
+
+a {
+    background-color: rgb(224, 235, 235);
+    color: rgb(0, 51, 102);
+}
+
+
+/* Styling Table */
+
+.teams {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace, serif, Arial, sans-serif;
+    font-weight: 70;
+    line-height: 30px;
+    letter-spacing: -1px;
+    width: 70%;
+}
+
+th {
+    background: linear-gradient(to bottom, #003366 2%, #e0ebeb 100%);
+    border: 2px solid #000;
+    border-bottom: 4px solid #000;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+tr {
+    background-color: rgba(224, 235, 235, .6);
+    color: rgba(0, 0, 0, .6)
+}
+
+tr:hover {
+    background-color: rgba(224, 235, 235, 1);
+    color: rgba(0, 0, 0, 1)
+}
+
+td {
+    padding: 5px;
+    border-radius: 2px;
+    text-shadow: 1px 1px #ffcc00;
+}
+
+table th:first-child,
+table tr td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+table th:nth-child(2),
+table th:nth-child(3),
+table tr td:nth-child(2),
+table tr td:nth-child(3) {
+    text-align: center;
+}
